@@ -1,10 +1,8 @@
 #!/bin/sh
-
 #  user_tracking.sh
 #
-#  Created by Anil .
+#  Created by Anil 01/12/17.
 #
-#!/bin/bash
 STORAGE="/var/log/td-agent/user.log"
 [ ! -w "$STORAGE" ] && \
 return 0
